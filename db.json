@@ -2,9 +2,9 @@
     "mainplans" :
       [{
             "id": 1,
-            "name": "plan chulo 1",
+            "name": "plan free",
             "price": 0,
-            "description": "Este es la descripción del plan chulo 1",
+            "description": "Este es la descripción del plan chulo gratis",
             "observation": "Es el mejor plan del fin de semana",
             "idUser": 1,
             "subcategories": [{
@@ -20,16 +20,18 @@
                 }
             ],
             "startDate": "2020-05-01T10:00:00.782Z",
-            "endDate": "2020-05-01T12:00:00.782 Z",
-            "directionId": 1,
+            "endDate": "2020-05-01T12:00:00.782Z",
+            "direction": "Plaza Moyua",
+            "city" : "Bilbao",
+            "province": "Bizkaia",
             "latitude": "43.259964",
             "longitude": "-2.922628"
         },
         {
             "id": 2,
-            "name": "plan chulo 1",
-            "price": 0,
-            "description": "Este es la descripción del plan chulo 1",
+            "name": "plan de pago. Concierto en el Azkena",
+            "price": 15,
+            "description": "Hamlet. Presentación de su nuevo disco.",
             "observation": "Es el mejor plan del fin de semana",
             "idUser": 1,
             "subcategories": [{
@@ -46,16 +48,18 @@
             ],
             "startDate": "2020-05-01T10:00:00.782Z",
             "endDate": "2020-05-01T12:00:00.782Z",
-            "directionId": 1,
+            "direction": "Plaza Nueva",
+            "city" : "Bilbao",
+            "province": "Bizkaia",
             "latitude": "43.259964",
             "longitude": "-2.922628"
         },
         {
             "id": 3,
-            "name": "plan chulo 3",
+            "name": "Cine Francés",
             "price": 10,
-            "description": "Este es la descripción del plan chulo 1",
-            "observations": "Es el mejor plan del fin de semana",
+            "description": "Amelie, en versión original con subtitulos",
+            "observations": "Minimo 10 personas, para que se haga el evento",
             "idUser": 1,
             "subcategories": [{
                     "id": 1,
@@ -70,7 +74,9 @@
             ],
             "startDate": "2020-05-01T10:00:00.782Z",
             "endDate": "2020-05-01T12:00:00.782Z",
-            "directionId": 1,
+            "direction": "Plaza Rekalde",
+            "city" : "Bilbao",
+            "province": "Bizkaia",
             "latitude": "43.259964",
             "longitude": "-2.922628"
         }
