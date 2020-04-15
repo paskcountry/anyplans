@@ -2,8 +2,9 @@
     "mainplans" :
       [{
             "id": 1,
-            "name": "plan free",
+            "name": "De cañas por Diputación",
             "price": 0,
+            "image": "https://img.freepik.com/vector-gratis/bar-interior-composicion-realista_1284-24320.jpg?size=626&ext=jpg",
             "description": "Este es la descripción del plan chulo gratis",
             "observation": "Es el mejor plan del fin de semana",
             "idUser": 1,
@@ -21,9 +22,11 @@
             ],
             "startDate": "2020-05-01T10:00:00.782Z",
             "endDate": "2020-05-01T12:00:00.782Z",
-            "direction": "Plaza Moyua",
-            "city" : "Bilbao",
-            "province": "Bizkaia",
+            "address": {
+                "street": "Plaza Moyua",
+                "city" : "Bilbao",
+                "province": "Bizkaia"
+            },
             "latitude": "43.259964",
             "longitude": "-2.922628"
         },
@@ -31,6 +34,7 @@
             "id": 2,
             "name": "plan de pago. Concierto en el Azkena",
             "price": 15,
+            "image" : "https://los40es00.epimg.net/los40/imagenes/2017/07/20/andaya/1500545073_969475_1500545202_noticia_normal.jpg",
             "description": "Hamlet. Presentación de su nuevo disco.",
             "observation": "Es el mejor plan del fin de semana",
             "idUser": 1,
@@ -48,9 +52,11 @@
             ],
             "startDate": "2020-05-01T10:00:00.782Z",
             "endDate": "2020-05-01T12:00:00.782Z",
-            "direction": "Plaza Nueva",
-            "city" : "Bilbao",
-            "province": "Bizkaia",
+            "address": {
+                "street": "Plaza Nueva",
+                "city" : "Bilbao",
+                "province": "Bizkaia"
+            },
             "latitude": "43.259964",
             "longitude": "-2.922628"
         },
@@ -58,6 +64,7 @@
             "id": 3,
             "name": "Cine Francés",
             "price": 10,
+            "image": "https://www.pinclipart.com/picdir/middle/43-436543_clap-clipart-film-cinma-france-png-download.png",
             "description": "Amelie, en versión original con subtitulos",
             "observations": "Minimo 10 personas, para que se haga el evento",
             "idUser": 1,
@@ -74,9 +81,40 @@
             ],
             "startDate": "2020-05-01T10:00:00.782Z",
             "endDate": "2020-05-01T12:00:00.782Z",
-            "direction": "Plaza Rekalde",
-            "city" : "Bilbao",
-            "province": "Bizkaia",
+            "address": {
+                "street": "Plaza Unamuno",
+                "city" : "Bilbao",
+                "province": "Bizkaia"
+            },
+            "latitude": "43.259964",
+            "longitude": "-2.922628"
+        },
+        {
+            "id": 4,
+            "name": "Mountain Bike",
+            "price": 0,
+            "image": "https://media.istockphoto.com/photos/mountain-biker-riding-on-bike-on-forest-dirt-trail-picture-id945042798?k=6&m=945042798&s=612x612&w=0&h=J4MO0BylAmDZRxkNb256Z34bRG6moQEQ5_tTiAvSe4Y=",
+            "description": "Recorrido por Kobetas",
+            "observations": "Máximo 5 personas",
+            "idUser": 1,
+            "subcategories": [{
+                    "id": 1,
+                    "name": "subcategoria 1",
+                    "categoryId": 4
+                },
+                {
+                    "id": 2,
+                    "name": "subcategoria 2",
+                    "categoryId": 4
+                }
+            ],
+            "startDate": "2020-05-01T10:00:00.782Z",
+            "endDate": "2020-05-01T12:00:00.782Z",
+            "address": {
+                "street": "Plaza Unamuno",
+                "city" : "Bilbao",
+                "province": "Bizkaia"
+            },
             "latitude": "43.259964",
             "longitude": "-2.922628"
         }
